@@ -1,0 +1,49 @@
+
+Overlap Results
+
+Collection(s):	C2, C5, C6
+# overlaps shown:	18
+# genesets in collections:	6369
+# genes in comparison (n):	16
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+BENPORATH_EED_TARGETS	1062	Set 'Eed targets': genes identified by ChIP on chip as targets of the Polycomb protein EED [GeneID=8726] in human embryonic stem cells.	9	0.0085	1.8E-11	9.04E-8
+BENPORATH_ES_WITH_H3K27ME3	1118	Set 'H3K27 bound': genes posessing the trimethylated H3K27 (H3K27me3) mark in their promoters in human embryonic stem cells, as identified by ChIP on chip.	9	0.0081	2.84E-11	9.04E-8
+BENPORATH_SUZ12_TARGETS	1038	Set 'Suz12 targets': genes identified by ChIP on chip as targets of the Polycomb protein SUZ12 [GeneID=23512] in human embryonic stem cells.	8	0.0077	7.23E-10	1.53E-6
+BENPORATH_PRC2_TARGETS	652	Set 'PRC2 targets': Polycomb Repression Complex 2 (PRC) targets; identified by ChIP on chip on human embryonic stem cells as genes that: posess the trimethylated H3K27 mark in their promoters and are bound by SUZ12 [GeneID=23512] and EED [GeneID=8726] Polycomb proteins.	7	0.0107	1.15E-9	1.83E-6
+TRANSCRIPTION_FACTOR_ACTIVITY	354	Genes annotated by the GO term GO:0003700. The function of binding to a specific DNA sequence in order to modulate transcription. The transcription factor may or may not also interact selectively with a protein or macromolecular complex.	6	0.0169	1.5E-9	1.91E-6
+MEISSNER_BRAIN_HCP_WITH_H3K27ME3	269	Genes with high-CpG-density promoters (HCP) bearing the H3K27 tri-methylation (H3K27me3) mark in brain.	5	0.0186	2.74E-8	2.91E-5
+DNA_BINDING	602	Genes annotated by the GO term GO:0003677. Interacting selectively with DNA (deoxyribonucleic acid).	6	0.0100	3.53E-8	3.21E-5
+TRANSCRIPTION_FROM_RNA_POLYMERASE_II_PROMOTER	457	Genes annotated by the GO term GO:0006366. The synthesis of RNA from a DNA template by RNA polymerase II (Pol II), originating at a Pol II-specific promoter. Includes transcription of messenger RNA (mRNA) and certain small nuclear RNAs (snRNAs).	5	0.0109	3.8E-7	3.02E-4
+TRANSCRIPTION_DNA_DEPENDENT	636	Genes annotated by the GO term GO:0006351. The synthesis of RNA on a template of DNA.	5	0.0079	1.92E-6	1.24E-3
+RNA_BIOSYNTHETIC_PROCESS	638	Genes annotated by the GO term GO:0032774. The chemical reactions and pathways resulting in the formation of RNA, ribonucleic acid, one of the two main type of nucleic acid, consisting of a long, unbranched macromolecule formed from ribonucleotides joined in 3',5'-phosphodiester linkage. Includes polymerization of ribonucleotide monomers.	5	0.0078	1.95E-6	1.24E-3
+TRANSCRIPTION	753	Genes annotated by the GO term GO:0006350. The synthesis of either RNA on a template of DNA or DNA on a template of RNA.	5	0.0066	4.38E-6	2.54E-3
+MIKKELSEN_NPC_HCP_WITH_H3K27ME3	341	Genes with high-CpG-density promoters (HCP) bearing histone H3 trimethylation mark at K27 (H3K27me3) in neural progenitor cells (NPC).	4	0.0117	5.05E-6	2.68E-3
+MEISSNER_NPC_HCP_WITH_H3K4ME2_AND_H3K27ME3	349	Genes with high-CpG-density promoters (HCP) bearing histone H3 dimethylation mark at K4 (H3K4me2) and trimethylation mark at K27 (H3K27me3) in neural precursor cells (NPC).	4	0.0115	5.54E-6	2.71E-3
+RNA_METABOLIC_PROCESS	841	Genes annotated by the GO term GO:0016070. The chemical reactions and pathways involving RNA, ribonucleic acid, one of the two main type of nucleic acid, consisting of a long, unbranched macromolecule formed from ribonucleotides joined in 3',5'-phosphodiester linkage.	5	0.0059	7.49E-6	3.41E-3
+NUCLEOBASENUCLEOSIDENUCLEOTIDE_AND_NUCLEIC_ACID_METABOLIC_PROCESS	1244	Genes annotated by the GO term GO:0006139. The chemical reactions and pathways involving nucleobases, nucleosides, nucleotides and nucleic acids.	5	0.0040	4.91E-5	1.96E-2
+RORIE_TARGETS_OF_EWSR1_FLI1_FUSION_DN	30	Neuroblastoma markers down-regulated in neuroblastoma cell lines expressing ESWR1-FLI1 [GeneID=2130;2313] fusion protein.	2	0.0667	4.92E-5	1.96E-2
+HEART_DEVELOPMENT	37	Genes annotated by the GO term GO:0007507. The process whose specific outcome is the progression of the heart over time, from its formation to the mature structure. The heart is a hollow, muscular organ, which, by contracting rhythmically, keeps up the circulation of the blood.	2	0.0541	7.51E-5	2.82E-2
+RIZ_ERYTHROID_DIFFERENTIATION_12HR	43	Selected genes down-regulated in the TLX1 [GeneID=3195] Tet On iEBHX15-4 cells (pro-erythroblasts) at 12 h time point.	2	0.0465	1.02E-4	3.6E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	BENPORATH_EED_TARGETS	BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS	BENPORATH_PRC2_TARGETS	TRANSCRIPTION_FACTOR_ACTIVITY	MEISSNER_BRAIN_HCP_WITH_H3K27ME3	DNA_BINDING	TRANSCRIPTION_FROM_RNA_POLYMERASE_II_PROMOTER	TRANSCRIPTION_DNA_DEPENDENT	RNA_BIOSYNTHETIC_PROCESS	TRANSCRIPTION	MIKKELSEN_NPC_HCP_WITH_H3K27ME3	MEISSNER_NPC_HCP_WITH_H3K4ME2_AND_H3K27ME3	RNA_METABOLIC_PROCESS	NUCLEOBASENUCLEOSIDENUCLEOTIDE_AND_NUCLEIC_ACID_METABOLIC_PROCESS	RORIE_TARGETS_OF_EWSR1_FLI1_FUSION_DN	HEART_DEVELOPMENT	RIZ_ERYTHROID_DIFFERENTIATION_12HR
+54738	FEV	FEV (ETS oncogene family)	BENPORATH_EED_TARGETS	BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS	BENPORATH_PRC2_TARGETS	TRANSCRIPTION_FACTOR_ACTIVITY	MEISSNER_BRAIN_HCP_WITH_H3K27ME3	DNA_BINDING	TRANSCRIPTION_FROM_RNA_POLYMERASE_II_PROMOTER	TRANSCRIPTION_DNA_DEPENDENT	RNA_BIOSYNTHETIC_PROCESS	TRANSCRIPTION	MIKKELSEN_NPC_HCP_WITH_H3K27ME3	MEISSNER_NPC_HCP_WITH_H3K4ME2_AND_H3K27ME3	RNA_METABOLIC_PROCESS	NUCLEOBASENUCLEOSIDENUCLEOTIDE_AND_NUCLEIC_ACID_METABOLIC_PROCESS	RORIE_TARGETS_OF_EWSR1_FLI1_FUSION_DN		
+2625	GATA3	GATA binding protein 3	BENPORATH_EED_TARGETS	BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS	BENPORATH_PRC2_TARGETS	TRANSCRIPTION_FACTOR_ACTIVITY	MEISSNER_BRAIN_HCP_WITH_H3K27ME3	DNA_BINDING	TRANSCRIPTION_FROM_RNA_POLYMERASE_II_PROMOTER	TRANSCRIPTION_DNA_DEPENDENT	RNA_BIOSYNTHETIC_PROCESS	TRANSCRIPTION			RNA_METABOLIC_PROCESS	NUCLEOBASENUCLEOSIDENUCLEOTIDE_AND_NUCLEIC_ACID_METABOLIC_PROCESS	RORIE_TARGETS_OF_EWSR1_FLI1_FUSION_DN		
+9464	HAND2	heart and neural crest derivatives expressed 2	BENPORATH_EED_TARGETS	BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS	BENPORATH_PRC2_TARGETS	TRANSCRIPTION_FACTOR_ACTIVITY	MEISSNER_BRAIN_HCP_WITH_H3K27ME3	DNA_BINDING	TRANSCRIPTION_FROM_RNA_POLYMERASE_II_PROMOTER	TRANSCRIPTION_DNA_DEPENDENT	RNA_BIOSYNTHETIC_PROCESS	TRANSCRIPTION			RNA_METABOLIC_PROCESS	NUCLEOBASENUCLEOSIDENUCLEOTIDE_AND_NUCLEIC_ACID_METABOLIC_PROCESS		HEART_DEVELOPMENT	RIZ_ERYTHROID_DIFFERENTIATION_12HR
+3196	TLX2	T-cell leukemia homeobox 2	BENPORATH_EED_TARGETS	BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS	BENPORATH_PRC2_TARGETS		MEISSNER_BRAIN_HCP_WITH_H3K27ME3							MEISSNER_NPC_HCP_WITH_H3K4ME2_AND_H3K27ME3					
+1412	CRYBA2	crystallin, beta A2	BENPORATH_EED_TARGETS	BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS	BENPORATH_PRC2_TARGETS								MIKKELSEN_NPC_HCP_WITH_H3K27ME3	MEISSNER_NPC_HCP_WITH_H3K4ME2_AND_H3K27ME3					
+124842	TMEM132E	transmembrane protein 132E	BENPORATH_EED_TARGETS	BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS	BENPORATH_PRC2_TARGETS								MIKKELSEN_NPC_HCP_WITH_H3K27ME3	MEISSNER_NPC_HCP_WITH_H3K4ME2_AND_H3K27ME3					
+201780	SLC10A4	solute carrier family 10 (sodium/bile acid cotransporter family), member 4	BENPORATH_EED_TARGETS	BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS	BENPORATH_PRC2_TARGETS														
+9421	HAND1	heart and neural crest derivatives expressed 1	BENPORATH_EED_TARGETS	BENPORATH_ES_WITH_H3K27ME3			TRANSCRIPTION_FACTOR_ACTIVITY	MEISSNER_BRAIN_HCP_WITH_H3K27ME3	DNA_BINDING	TRANSCRIPTION_FROM_RNA_POLYMERASE_II_PROMOTER	TRANSCRIPTION_DNA_DEPENDENT	RNA_BIOSYNTHETIC_PROCESS	TRANSCRIPTION			RNA_METABOLIC_PROCESS	NUCLEOBASENUCLEOSIDENUCLEOTIDE_AND_NUCLEIC_ACID_METABOLIC_PROCESS		HEART_DEVELOPMENT	RIZ_ERYTHROID_DIFFERENTIATION_12HR
+7021	TFAP2B	transcription factor AP-2 beta (activating enhancer binding protein 2 beta)	BENPORATH_EED_TARGETS	BENPORATH_ES_WITH_H3K27ME3			TRANSCRIPTION_FACTOR_ACTIVITY		DNA_BINDING	TRANSCRIPTION_FROM_RNA_POLYMERASE_II_PROMOTER	TRANSCRIPTION_DNA_DEPENDENT	RNA_BIOSYNTHETIC_PROCESS	TRANSCRIPTION	MIKKELSEN_NPC_HCP_WITH_H3K27ME3		RNA_METABOLIC_PROCESS	NUCLEOBASENUCLEOSIDENUCLEOTIDE_AND_NUCLEIC_ACID_METABOLIC_PROCESS			
+326340	ZAR1	zygote arrest 1			BENPORATH_SUZ12_TARGETS															
+7701	ZNF142	zinc finger protein 142					TRANSCRIPTION_FACTOR_ACTIVITY		DNA_BINDING											
+255101	CCDC108	coiled-coil domain containing 108																		
+83860	TAF3	TAF3 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 140kDa																		
+165545	DQX1	DEAQ box RNA-dependent ATPase 1																		
+84759	PCGF1	polycomb group ring finger 1																		
+401399	PRRT4	proline-rich transmembrane protein 4																		

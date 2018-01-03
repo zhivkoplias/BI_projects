@@ -1,0 +1,115 @@
+
+Overlap Results
+
+Collection(s):	C2, C5, C6
+# overlaps shown:	10
+# genesets in collections:	6369
+# genes in comparison (n):	90
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+MIKKELSEN_MEF_HCP_WITH_H3K27ME3	590	Genes with high-CpG-density promoters (HCP) bearing histone H3 trimethylation mark at K27 (H3K27me3) in MEF cells (embryonic fibroblast).	13	0.0220	1.51E-10	9.59E-7
+MEISSNER_NPC_HCP_WITH_H3_UNMETHYLATED	536	Genes with high-CpG-density promoters (HCP) that have no histone H3 methylation marks in neural precursor cells (NPC).	12	0.0224	6.73E-10	2.14E-6
+BENPORATH_ES_WITH_H3K27ME3	1118	Set 'H3K27 bound': genes posessing the trimethylated H3K27 (H3K27me3) mark in their promoters in human embryonic stem cells, as identified by ChIP on chip.	13	0.0116	2.84E-7	6.03E-4
+BENPORATH_SUZ12_TARGETS	1038	Set 'Suz12 targets': genes identified by ChIP on chip as targets of the Polycomb protein SUZ12 [GeneID=23512] in human embryonic stem cells.	12	0.0116	9E-7	1.43E-3
+WU_CELL_MIGRATION	184	Genes associated with migration rate of 40 human bladder cancer cells.	6	0.0326	1.79E-6	2.28E-3
+MIKKELSEN_MCV6_HCP_WITH_H3K27ME3	435	Genes with high-CpG-density promoters (HCP) bearing the tri-methylation mark at H3K27 (H3K27me3) in MCV6 cells (embryonic fibroblasts trapped in a differentiated state).	8	0.0184	2.38E-6	2.53E-3
+YOSHIMURA_MAPK8_TARGETS_UP	1305	Genes up-regulated in vascular smooth muscle cells (VSMC) by MAPK8 (JNK1) [GeneID=5599].	12	0.0092	9.31E-6	8.47E-3
+P53_DN.V2_UP	148	Genes up-regulated in HEK293 cells (kidney fibroblasts) upon knockdown of TP53 [Gene ID=7157] gene by RNAi.	5	0.0338	1.14E-5	8.67E-3
+HATADA_METHYLATED_IN_LUNG_CANCER_UP	390	Genes with hypermethylated DNA in lung cancer samples.	7	0.0179	1.23E-5	8.67E-3
+COLIN_PILOCYTIC_ASTROCYTOMA_VS_GLIOBLASTOMA_DN	28	Genes down-regulated in pilocytic astrocytoma compared to glioblastoma samples.	3	0.1071	2.3E-5	1.46E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	MIKKELSEN_MEF_HCP_WITH_H3K27ME3	MEISSNER_NPC_HCP_WITH_H3_UNMETHYLATED	BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS	WU_CELL_MIGRATION	MIKKELSEN_MCV6_HCP_WITH_H3K27ME3	YOSHIMURA_MAPK8_TARGETS_UP	P53_DN.V2_UP	HATADA_METHYLATED_IN_LUNG_CANCER_UP	COLIN_PILOCYTIC_ASTROCYTOMA_VS_GLIOBLASTOMA_DN
+4070	TACSTD2	tumor-associated calcium signal transducer 2	MIKKELSEN_MEF_HCP_WITH_H3K27ME3	MEISSNER_NPC_HCP_WITH_H3_UNMETHYLATED	BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS	WU_CELL_MIGRATION		YOSHIMURA_MAPK8_TARGETS_UP			
+9365	KL	klotho	MIKKELSEN_MEF_HCP_WITH_H3K27ME3	MEISSNER_NPC_HCP_WITH_H3_UNMETHYLATED	BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS		MIKKELSEN_MCV6_HCP_WITH_H3K27ME3	YOSHIMURA_MAPK8_TARGETS_UP		HATADA_METHYLATED_IN_LUNG_CANCER_UP	
+55001	TTC22	tetratricopeptide repeat domain 22	MIKKELSEN_MEF_HCP_WITH_H3K27ME3	MEISSNER_NPC_HCP_WITH_H3_UNMETHYLATED								
+1674	DES	desmin	MIKKELSEN_MEF_HCP_WITH_H3K27ME3	MEISSNER_NPC_HCP_WITH_H3_UNMETHYLATED								
+85474	LBX2	ladybird homeobox 2	MIKKELSEN_MEF_HCP_WITH_H3K27ME3	MEISSNER_NPC_HCP_WITH_H3_UNMETHYLATED								
+5697	PYY	peptide YY	MIKKELSEN_MEF_HCP_WITH_H3K27ME3		BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS		MIKKELSEN_MCV6_HCP_WITH_H3K27ME3	YOSHIMURA_MAPK8_TARGETS_UP	P53_DN.V2_UP		
+362	AQP5	aquaporin 5	MIKKELSEN_MEF_HCP_WITH_H3K27ME3		BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS		MIKKELSEN_MCV6_HCP_WITH_H3K27ME3				
+148641	SLC35F3	solute carrier family 35, member F3	MIKKELSEN_MEF_HCP_WITH_H3K27ME3		BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS		MIKKELSEN_MCV6_HCP_WITH_H3K27ME3				
+10882	C1QL1	complement component 1, q subcomponent-like 1	MIKKELSEN_MEF_HCP_WITH_H3K27ME3		BENPORATH_ES_WITH_H3K27ME3			MIKKELSEN_MCV6_HCP_WITH_H3K27ME3				
+80863	PRRT1	proline-rich transmembrane protein 1	MIKKELSEN_MEF_HCP_WITH_H3K27ME3		BENPORATH_ES_WITH_H3K27ME3							
+9227	LRAT	lecithin retinol acyltransferase (phosphatidylcholine--retinol O-acyltransferase)	MIKKELSEN_MEF_HCP_WITH_H3K27ME3		BENPORATH_ES_WITH_H3K27ME3							
+10320	IKZF1	IKAROS family zinc finger 1 (Ikaros)	MIKKELSEN_MEF_HCP_WITH_H3K27ME3							P53_DN.V2_UP		
+345456	PFN3	profilin 3	MIKKELSEN_MEF_HCP_WITH_H3K27ME3									
+3000	GUCY2D	guanylate cyclase 2D, membrane (retina-specific)		MEISSNER_NPC_HCP_WITH_H3_UNMETHYLATED	BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS				P53_DN.V2_UP		
+5317	PKP1	plakophilin 1 (ectodermal dysplasia/skin fragility syndrome)		MEISSNER_NPC_HCP_WITH_H3_UNMETHYLATED	BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS					HATADA_METHYLATED_IN_LUNG_CANCER_UP	
+3855	KRT7	keratin 7		MEISSNER_NPC_HCP_WITH_H3_UNMETHYLATED			WU_CELL_MIGRATION	MIKKELSEN_MCV6_HCP_WITH_H3K27ME3				
+56105	PCDHGA11	protocadherin gamma subfamily A, 11		MEISSNER_NPC_HCP_WITH_H3_UNMETHYLATED					YOSHIMURA_MAPK8_TARGETS_UP			
+10290	SPEG	SPEG complex locus		MEISSNER_NPC_HCP_WITH_H3_UNMETHYLATED								
+5010	CLDN11	claudin 11		MEISSNER_NPC_HCP_WITH_H3_UNMETHYLATED								
+162073	ITPRIPL2	inositol 1,4,5-trisphosphate receptor interacting protein-like 2		MEISSNER_NPC_HCP_WITH_H3_UNMETHYLATED								
+2583	B4GALNT1	beta-1,4-N-acetyl-galactosaminyl transferase 1			BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS						
+4914	NTRK1	neurotrophic tyrosine kinase, receptor, type 1			BENPORATH_ES_WITH_H3K27ME3	BENPORATH_SUZ12_TARGETS						
+1749	DLX5	distal-less homeobox 5			BENPORATH_ES_WITH_H3K27ME3				YOSHIMURA_MAPK8_TARGETS_UP			
+51733	UPB1	ureidopropionase, beta				BENPORATH_SUZ12_TARGETS					HATADA_METHYLATED_IN_LUNG_CANCER_UP	
+136259	KLF14	Kruppel-like factor 14				BENPORATH_SUZ12_TARGETS						
+326340	ZAR1	zygote arrest 1				BENPORATH_SUZ12_TARGETS						
+7045	TGFBI	transforming growth factor, beta-induced, 68kDa					WU_CELL_MIGRATION	MIKKELSEN_MCV6_HCP_WITH_H3K27ME3			HATADA_METHYLATED_IN_LUNG_CANCER_UP	COLIN_PILOCYTIC_ASTROCYTOMA_VS_GLIOBLASTOMA_DN
+4232	MEST	mesoderm specific transcript homolog (mouse)					WU_CELL_MIGRATION					
+2171	FABP5	fatty acid binding protein 5 (psoriasis-associated)					WU_CELL_MIGRATION					
+6277	S100A6	S100 calcium binding protein A6					WU_CELL_MIGRATION					
+56134	PCDHAC2	protocadherin alpha subfamily C, 2						MIKKELSEN_MCV6_HCP_WITH_H3K27ME3				
+126393	HSPB6	heat shock protein, alpha-crystallin-related, B6							YOSHIMURA_MAPK8_TARGETS_UP		HATADA_METHYLATED_IN_LUNG_CANCER_UP	
+6271	S100A1	S100 calcium binding protein A1							YOSHIMURA_MAPK8_TARGETS_UP			
+3952	LEP	leptin							YOSHIMURA_MAPK8_TARGETS_UP			
+5867	RAB4A	RAB4A, member RAS oncogene family							YOSHIMURA_MAPK8_TARGETS_UP			
+58512	DLGAP3	discs, large (Drosophila) homolog-associated protein 3							YOSHIMURA_MAPK8_TARGETS_UP			
+2288	FKBP4	FK506 binding protein 4, 59kDa							YOSHIMURA_MAPK8_TARGETS_UP			
+113419	TEX261	testis expressed 261							YOSHIMURA_MAPK8_TARGETS_UP			
+80352	RNF39	ring finger protein 39								P53_DN.V2_UP		
+2185	PTK2B	PTK2B protein tyrosine kinase 2 beta								P53_DN.V2_UP		
+284307	ZIK1	zinc finger protein interacting with K protein 1 homolog (mouse)									HATADA_METHYLATED_IN_LUNG_CANCER_UP	
+283471	TMPRSS12	transmembrane (C-terminal) protease, serine 12									HATADA_METHYLATED_IN_LUNG_CANCER_UP	
+10457	GPNMB	glycoprotein (transmembrane) nmb										COLIN_PILOCYTIC_ASTROCYTOMA_VS_GLIOBLASTOMA_DN
+7296	TXNRD1	thioredoxin reductase 1										COLIN_PILOCYTIC_ASTROCYTOMA_VS_GLIOBLASTOMA_DN
+10361	NPM2	nucleophosmin/nucleoplasmin 2										
+255101	CCDC108	coiled-coil domain containing 108										
+196385	DNAH10	dynein, axonemal, heavy chain 10										
+6526	SLC5A3	solute carrier family 5 (sodium/myo-inositol cotransporter), member 3										
+651746	ANKRD33B	ankyrin repeat domain 33B										
+284382	ACTL9	actin-like 9										
+401024	FSIP2	fibrous sheath interacting protein 2										
+245711	SPDYA	speedy homolog A (Xenopus laevis)										
+57538	ALPK3	alpha-kinase 3										
+493861	EID3	EP300 interacting inhibitor of differentiation 3										
+10195	ALG3	asparagine-linked glycosylation 3, alpha-1,3- mannosyltransferase homolog (S. cerevisiae)										
+29926	GMPPA	GDP-mannose pyrophosphorylase A										
+55024	BANK1	B-cell scaffold protein with ankyrin repeats 1										
+55812	SPATA7	spermatogenesis associated 7										
+2644	GCHFR	GTP cyclohydrolase I feedback regulator										
+51364	ZMYND10	zinc finger, MYND-type containing 10										
+92211	CDHR1	cadherin-related family member 1										
+388963	C2orf81	chromosome 2 open reading frame 81										
+2848	GPR25	G protein-coupled receptor 25										
+10500	SEMA6C	sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6C										
+54935	DUSP23	dual specificity phosphatase 23										
+2645	GCK	glucokinase (hexokinase 4)										
+112770	C1orf85	chromosome 1 open reading frame 85										
+165545	DQX1	DEAQ box RNA-dependent ATPase 1										
+94015	TTYH2	tweety homolog 2 (Drosophila)										
+64582	GPR135	G protein-coupled receptor 135										
+64968	MRPS6	mitochondrial ribosomal protein S6										
+51131	PHF11	PHD finger protein 11										
+141	ADPRH	ADP-ribosylarginine hydrolase										
+29103	DNAJC15	DnaJ (Hsp40) homolog, subfamily C, member 15										
+254122	SNX32	sorting nexin 32										
+26025	PCDHGA12	protocadherin gamma subfamily A, 12										
+2161	F12	coagulation factor XII (Hageman factor)										
+57504	MTA3	metastasis associated 1 family, member 3										
+126668	TDRD10	tudor domain containing 10										
+25943	C20orf194	chromosome 20 open reading frame 194										
+317749	DHRS4L2	dehydrogenase/reductase (SDR family) member 4 like 2										
+152185	SPICE1	spindle and centriole associated protein 1										
+153769	PPP1R39	protein phosphatase 1, regulatory subunit 39										
+64434	NOM1	nucleolar protein with MIF4G domain 1										
+222698	NKAPL	NFKB activating protein-like										
+150280	HORMAD2	HORMA domain containing 2										
+353219	KAAG1	kidney associated antigen 1										
+57622	LRFN1	leucine rich repeat and fibronectin type III domain containing 1										
+100190949	C5orf52	chromosome 5 open reading frame 52										
+127550	A3GALT2P	alpha 1,3-galactosyltransferase 2, pseudogene										

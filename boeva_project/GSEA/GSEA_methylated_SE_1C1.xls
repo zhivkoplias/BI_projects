@@ -1,0 +1,30 @@
+
+Overlap Results
+
+Collection(s):	C2, C5, C6
+# overlaps shown:	10
+# genesets in collections:	6369
+# genes in comparison (n):	5
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+DNA_BINDING	602	Genes annotated by the GO term GO:0003677. Interacting selectively with DNA (deoxyribonucleic acid).	4	0.0066	1.44E-7	9.19E-4
+BENPORATH_EED_TARGETS	1062	Set 'Eed targets': genes identified by ChIP on chip as targets of the Polycomb protein EED [GeneID=8726] in human embryonic stem cells.	4	0.0038	1.39E-6	3.63E-3
+BENPORATH_ES_WITH_H3K27ME3	1118	Set 'H3K27 bound': genes posessing the trimethylated H3K27 (H3K27me3) mark in their promoters in human embryonic stem cells, as identified by ChIP on chip.	4	0.0036	1.71E-6	3.63E-3
+NIKOLSKY_BREAST_CANCER_17Q21_Q25_AMPLICON	335	Genes within amplicon 17q21-q25 identified in a copy number alterations study of 191 breast tumor samples.	3	0.0090	3.8E-6	5.71E-3
+TRANSCRIPTION_FACTOR_ACTIVITY	354	Genes annotated by the GO term GO:0003700. The function of binding to a specific DNA sequence in order to modulate transcription. The transcription factor may or may not also interact selectively with a protein or macromolecular complex.	3	0.0085	4.48E-6	5.71E-3
+HEART_DEVELOPMENT	37	Genes annotated by the GO term GO:0007507. The process whose specific outcome is the progression of the heart over time, from its formation to the mature structure. The heart is a hollow, muscular organ, which, by contracting rhythmically, keeps up the circulation of the blood.	2	0.0541	6.3E-6	6.68E-3
+RIZ_ERYTHROID_DIFFERENTIATION_12HR	43	Selected genes down-regulated in the TLX1 [GeneID=3195] Tet On iEBHX15-4 cells (pro-erythroblasts) at 12 h time point.	2	0.0465	8.54E-6	7.77E-3
+BIOCARTA_NFAT_PATHWAY	56	NFAT and Hypertrophy of the heart (Transcription in the broken heart)	2	0.0357	1.45E-5	1.16E-2
+ORGAN_DEVELOPMENT	571	Genes annotated by the GO term GO:0048513. Development of a tissue or tissues that work together to perform a specific function or functions. Development pertains to the process whose specific outcome is the progression of a structure over time, from its formation to the mature structure. Organs are commonly observed as visibly distinct structures, but may also exist as loosely associated clusters of cells that work together to perform a specific function or functions.	3	0.0053	1.87E-5	1.33E-2
+TRANSCRIPTION_DNA_DEPENDENT	636	Genes annotated by the GO term GO:0006351. The synthesis of RNA on a template of DNA.	3	0.0047	2.58E-5	1.48E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	DNA_BINDING	BENPORATH_EED_TARGETS	BENPORATH_ES_WITH_H3K27ME3	NIKOLSKY_BREAST_CANCER_17Q21_Q25_AMPLICON	TRANSCRIPTION_FACTOR_ACTIVITY	HEART_DEVELOPMENT	RIZ_ERYTHROID_DIFFERENTIATION_12HR	BIOCARTA_NFAT_PATHWAY	ORGAN_DEVELOPMENT	TRANSCRIPTION_DNA_DEPENDENT
+6909	TBX2	T-box 2	DNA_BINDING	BENPORATH_EED_TARGETS	BENPORATH_ES_WITH_H3K27ME3	NIKOLSKY_BREAST_CANCER_17Q21_Q25_AMPLICON						TRANSCRIPTION_DNA_DEPENDENT
+9464	HAND2	heart and neural crest derivatives expressed 2	DNA_BINDING	BENPORATH_EED_TARGETS	BENPORATH_ES_WITH_H3K27ME3		TRANSCRIPTION_FACTOR_ACTIVITY	HEART_DEVELOPMENT	RIZ_ERYTHROID_DIFFERENTIATION_12HR	BIOCARTA_NFAT_PATHWAY	ORGAN_DEVELOPMENT	TRANSCRIPTION_DNA_DEPENDENT
+9421	HAND1	heart and neural crest derivatives expressed 1	DNA_BINDING	BENPORATH_EED_TARGETS	BENPORATH_ES_WITH_H3K27ME3		TRANSCRIPTION_FACTOR_ACTIVITY	HEART_DEVELOPMENT	RIZ_ERYTHROID_DIFFERENTIATION_12HR	BIOCARTA_NFAT_PATHWAY	ORGAN_DEVELOPMENT	TRANSCRIPTION_DNA_DEPENDENT
+9496	TBX4	T-box 4	DNA_BINDING			NIKOLSKY_BREAST_CANCER_17Q21_Q25_AMPLICON	TRANSCRIPTION_FACTOR_ACTIVITY				ORGAN_DEVELOPMENT	
+388407	C17orf82	chromosome 17 open reading frame 82		BENPORATH_EED_TARGETS	BENPORATH_ES_WITH_H3K27ME3	NIKOLSKY_BREAST_CANCER_17Q21_Q25_AMPLICON						

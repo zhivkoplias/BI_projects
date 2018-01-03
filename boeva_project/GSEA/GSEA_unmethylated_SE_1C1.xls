@@ -1,0 +1,42 @@
+
+Overlap Results
+
+Collection(s):	C2, C6
+# overlaps shown:	3
+# genesets in collections:	4915
+# genes in comparison (n):	24
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+BRUINS_UVC_RESPONSE_LATE	1137	Late response genes: differentially expressed only 12 h after UV-C irradiation of MEF cells (embryonic fibroblast).	6	0.0053	2.08E-5	4.15E-2
+PEREZ_TP53_TARGETS	1174	Genes up-regulated in the HMEC cells (primary mammary epithelium) upon expression of TP53 [GeneID=7157] off adenoviral vector.	6	0.0051	2.49E-5	4.15E-2
+RICKMAN_TUMOR_DIFFERENTIATED_WELL_VS_MODERATELY_UP	109	Up-regulated genes that vary between HNSCC (head and neck squamous cell carcinoma) groups formed on the basis of their level of pathological differentiation: well vs moderately differentiated tumors.	3	0.0275	2.53E-5	4.15E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	BRUINS_UVC_RESPONSE_LATE	PEREZ_TP53_TARGETS	RICKMAN_TUMOR_DIFFERENTIATED_WELL_VS_MODERATELY_UP
+4121	MAN1A1	mannosidase, alpha, class 1A, member 1	BRUINS_UVC_RESPONSE_LATE	PEREZ_TP53_TARGETS	
+124540	MSI2	musashi homolog 2 (Drosophila)	BRUINS_UVC_RESPONSE_LATE		RICKMAN_TUMOR_DIFFERENTIATED_WELL_VS_MODERATELY_UP
+23368	PPP1R13B	protein phosphatase 1, regulatory subunit 13B	BRUINS_UVC_RESPONSE_LATE		
+27303	RBMS3	RNA binding motif, single stranded interacting protein 3	BRUINS_UVC_RESPONSE_LATE		
+6586	SLIT3	slit homolog 3 (Drosophila)	BRUINS_UVC_RESPONSE_LATE		
+81570	CLPB	ClpB caseinolytic peptidase B homolog (E. coli)	BRUINS_UVC_RESPONSE_LATE		
+2624	GATA2	GATA binding protein 2		PEREZ_TP53_TARGETS	
+23504	RIMBP2	RIMS binding protein 2		PEREZ_TP53_TARGETS	
+23199	KIAA0182	KIAA0182		PEREZ_TP53_TARGETS	
+26153	KIF26A	kinesin family member 26A		PEREZ_TP53_TARGETS	
+79632	FAM184A	family with sequence similarity 184, member A		PEREZ_TP53_TARGETS	
+619279	ZNF704	zinc finger protein 704			RICKMAN_TUMOR_DIFFERENTIATED_WELL_VS_MODERATELY_UP
+171024	SYNPO2	synaptopodin 2			RICKMAN_TUMOR_DIFFERENTIATED_WELL_VS_MODERATELY_UP
+55824	PAG1	phosphoprotein associated with glycosphingolipid microdomains 1			
+65986	ZBTB10	zinc finger and BTB domain containing 10			
+238	ALK	anaplastic lymphoma receptor tyrosine kinase			
+9871	SEC24D	SEC24 family, member D (S. cerevisiae)			
+8863	PER3	period homolog 3 (Drosophila)			
+51659	GINS2	GINS complex subunit 2 (Psf2 homolog)			
+9846	GAB2	GRB2-associated binding protein 2			
+55605	KIF21A	kinesin family member 21A			
+60678	EEFSEC	eukaryotic elongation factor, selenocysteine-tRNA-specific			
+388021	TMEM179	transmembrane protein 179			
+165721	DNAJB8	DnaJ (Hsp40) homolog, subfamily B, member 8			
